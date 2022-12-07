@@ -1,1 +1,2 @@
-# sentence-variation-tool
+# Sentence Variation Tool
+* Hello!
