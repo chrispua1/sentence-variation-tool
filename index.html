@@ -18,20 +18,19 @@
           [0, 0],
           [1, 1]
         ]);
-
-      }
       
-      var options = {
-        hAxis: {
-          title: 'Sentence'
-        },
-        vAxis: {
-          title: 'Words'
-        }
-      };
+        var options = {
+          hAxis: {
+            title: 'Sentence'
+          },
+          vAxis: {
+            title: 'Words'
+          }
+        };
 
-      var chart = new google.visualization.LineChart(document.getElementById('graph'));
-      chart.draw(data, options);
+        var chart = new google.visualization.LineChart(document.getElementById('graph'));
+        chart.draw(data, options);
+      }
     </script>
   </head>
   
