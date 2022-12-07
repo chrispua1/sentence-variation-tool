@@ -1,4 +1,4 @@
 # Sentence Variation Tool
-[Click here](chrispua1.github.io/sentence-variation-tool/) to access
+[Click here](https://chrispua1.github.io/sentence-variation-tool/) to access
 
 ## Introduction
