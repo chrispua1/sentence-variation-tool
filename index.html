@@ -21,9 +21,22 @@
 
       }
       
+      var options = {
+        hAxis: {
+          title: 'Sentence'
+        },
+        vAxis: {
+          title: 'Words'
+        },
+        colors: ['#a52714']
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
     </script>
   </head>
   
   <body>
+    <div id="graph"></div>
   </body>
 </html>
