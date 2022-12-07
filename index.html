@@ -5,37 +5,40 @@
     <style></style>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages': ['corechart', 'line']});
-      google.charts.setOnLoadCallback(drawChart);
+google.charts.load('current', {
+  packages: ['corechart', 'line']
+});
+google.charts.setOnLoadCallback(drawBasic);
 
-      function drawChart() {
-        let data = google.visualization.DataTable();
+function drawBasic() {
 
-        data.addColumn('number', 'X');
-        data.addColumn('number', 'Words');
+  var data = new google.visualization.DataTable();
+  data.addColumn('number', 'X');
+  data.addColumn('number', 'Dogs');
 
-        data.addRows([
-          [0, 0],
-          [1, 1]
-        ]);
-      
-        var options = {
-          hAxis: {
-            title: 'Sentence'
-          },
-          vAxis: {
-            title: 'Words'
-          }
-        };
+  data.addRows([
+    [0, 0],
+    [1, 1]
+  ]);
 
-        var chart = new google.visualization.LineChart(document.getElementById('graph'));
-        chart.draw(data, options);
-      }
+  var options = {
+    hAxis: {
+      title: 'Time'
+    },
+    vAxis: {
+      title: 'Popularity'
+    }
+  };
+
+  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+  chart.draw(data, options);
+}
     </script>
   </head>
   
   <body>
-    <h1>UPDATED</h1>
-    <div id="graph"></div>
+    <h1>UPDATED again AihfrUGFUEIEQULHFUDISCJKXC</h1>
+    <div id="chart_div"></div>
   </body>
 </html>
