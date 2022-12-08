@@ -45,7 +45,7 @@ function checkText() {
     dataArray.push([i, words.length]);
   }
 
-  alert(dataArray);
+  alert(dataArray.toString);
 
   drawGraph();
 }
