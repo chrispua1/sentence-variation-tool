@@ -29,10 +29,9 @@ function drawGraph() {
   chart.draw(data, options);
 }
 
-let text;
 function checkText() {
   alert("checking text...");
-  textinput = document.getElementById('textinput');
-  text = textinput.value;
+  textBox = document.getElementById('textinput');
+  let text = textBox.value();
   alert(text);
 }
