@@ -3,11 +3,11 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let data = new google.visualization.DataTable();
+let globalData;
 
 function drawGraph() {
 
-  //var data = new google.visualization.DataTable();
+  var data = new google.visualization.DataTable();
 
   data.addColumn('number', 'X');
   data.addColumn('number', 'Words');
@@ -17,7 +17,7 @@ function drawGraph() {
     [1, 1]
   ]);
 
-  //globalData = data;
+  globalData = data;
 
   var options = {
     hAxis: {
@@ -34,7 +34,19 @@ function drawGraph() {
 }
 
 let text = "";
+let sentences = [];
 function checkText() {
   text = document.getElementById('textinput').value
   alert(text);
+
+  let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+  temp = temp.replaceAll("! ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+  temp = temp.replaceAll("? ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+
+  sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
+  alert(sentences.length + " sentences");
+}
+
+function setData(data, info) {
+  // ...
 }
