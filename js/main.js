@@ -3,12 +3,7 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let dataArray = [
-  [0, 0],
-  [1, 1],
-  [2, 30],
-  [3, 8]
-];
+let dataArray = [];
 
 function drawGraph() {
 
@@ -49,7 +44,7 @@ function checkText() {
   dataArray = [
     [0, 0],
     [1, 1],
-    [2, 3]
+    [31, 30]
   ];
   drawGraph();
 }
