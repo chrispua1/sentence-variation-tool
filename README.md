@@ -16,4 +16,4 @@ The sentence variation tool has many features that can help you with your writin
 The sentence variation can be found at [chrispua1.github.io/sentence-variation-tool](https://chrispua1.github.io/sentence-variation-tool/). Copy and paste your writing into the text box, and click the submit button. You will then be presented with a graph and a list of your sentences.
 
 ## Open Source
-Feel free to use this code in any way you want!
+Feel free to use this code in any way you want! I selected the GPL v3.0 for the license for this repository. I'm not entirely sure I can just do that, so sorry if I'm not supposed to.
