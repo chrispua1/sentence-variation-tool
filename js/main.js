@@ -40,8 +40,9 @@ function checkText() {
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
   alert(sentences.length + " sentences");
 
-  for(let i = 1; i < sentences.length + 1; i++) {
-    let words = sentences[i].split();
+  let words = [""]
+  for(let i = 0; i < sentences.length; i++) {
+    words = sentences[i].split();
     alert("[" + i + ", " + words.length + "]")
     dataArray.push([i, words.length]);
   }
