@@ -30,5 +30,5 @@ function drawGraph() {
 }
 
 function checkText() {
-  alert(document.getElementById('textinput'));
+  alert(document.getElementById('textinput').value);
 }
