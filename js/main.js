@@ -32,7 +32,6 @@ let text = "";
 let sentences = [];
 function checkText() {
   text = document.getElementById('textinput').value
-  alert(text);
 
   let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
   temp = temp.replaceAll("! ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
@@ -41,10 +40,10 @@ function checkText() {
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
   alert(sentences.length + " sentences");
 
-  dataArray = [
-    [0, 0],
-    [1, 1],
-    [31, 30]
-  ];
+  for(let i = 1; i < sentences.length + 1; i++) {
+    words = sentences[i].split();
+    dataArray.push([i, words.length]);
+  }
+
   drawGraph();
 }
