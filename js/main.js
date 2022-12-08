@@ -30,8 +30,5 @@ function drawGraph() {
 }
 
 function checkText() {
-  alert("checking text...");
-  textBox = document.getElementById('textinput');
-  let text = textBox.value();
-  alert(text);
+  alert(document.getElementById('textinput'));
 }
