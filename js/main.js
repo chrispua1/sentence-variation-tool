@@ -42,6 +42,7 @@ function checkText() {
 
   for(let i = 1; i < sentences.length + 1; i++) {
     let words = sentences[i].split();
+    alert("[" + i + ", " + words.length + "]")
     dataArray.push([i, words.length]);
   }
 
