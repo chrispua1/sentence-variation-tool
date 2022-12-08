@@ -33,6 +33,8 @@ function drawGraph() {
   chart.draw(data, options);
 }
 
+let text = "";
 function checkText() {
-  alert(document.getElementById('textinput').value);
+  text = document.getElementById('textinput').value
+  alert(text);
 }
