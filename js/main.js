@@ -45,6 +45,13 @@ function checkText() {
     dataArray.push([i, words.length]);
   }
 
+  dataArray = [
+    [1, 6],
+    [2, 6],
+    [3, 23],
+    [4,9]
+  ];
+
   alert(dataArray.toString());
 
   drawGraph();
