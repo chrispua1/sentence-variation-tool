@@ -52,7 +52,7 @@ function checkText() {
     [4,9]
   ];
 
-  //alert(dataArray.toString());
+  alert(dataArray.toString());
 
   drawGraph();
 }
