@@ -1,6 +1,6 @@
 # Sentence Variation Tool
 
-## Under Development.
+## Under Development
 [Click here](https://chrispua1.github.io/sentence-variation-tool/) to access the (incomplete) sentence variation tool.
 
 ## Introduction
