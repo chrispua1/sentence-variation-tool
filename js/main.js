@@ -45,8 +45,7 @@ function checkText() {
     dataArray.push([i, words.length]);
   }*/
 
-  dataArray = [[1, 6],[2, 6],[3, 23]];
-  dataArray.push([4, 9]);
+  dataArray.push([1, 9]);
 
   alert(dataArray.toString());
 
