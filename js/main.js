@@ -3,7 +3,7 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let dataArray = [];
+let dataArray = [[0, 0]];
 
 function drawGraph() {
 
@@ -45,7 +45,7 @@ function checkText() {
     dataArray.push([i, words.length]);
   }
 
-  alert(dataArray.toString);
+  alert(dataArray.toString());
 
   drawGraph();
 }
