@@ -40,12 +40,10 @@ function checkText() {
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
   alert(sentences.length + " sentences");
 
-  /*for(let i = 1; i < sentences.length + 1; i++) {
-    words = sentences[i].split();
+  for(let i = 1; i < sentences.length + 1; i++) {
+    let words = sentences[i].split();
     dataArray.push([i, words.length]);
-  }*/
-
-  dataArray.push([1, 9]);
+  }
 
   alert(dataArray.toString());
 
