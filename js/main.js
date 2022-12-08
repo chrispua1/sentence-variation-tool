@@ -48,8 +48,3 @@ function checkText() {
   ];
   drawGraph();
 }
-
-function renderGraph(data) {
-  data = data;
-  drawGraph();
-}
