@@ -31,6 +31,8 @@ function drawGraph() {
 
 let text;
 function checkText() {
-  text = document.getElementById("textinput").value;
+  alert("checking text...");
+  textinput = document.getElementById('textinput');
+  text = textinput.value;
   alert(text);
 }
