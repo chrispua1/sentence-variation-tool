@@ -1,7 +1,5 @@
 # Sentence Variation Tool
-
-## Under Development
-[Click here](https://chrispua1.github.io/sentence-variation-tool/) to access the (incomplete) sentence variation tool.
+Looking for the site? [Click here](https://chrispua1.github.io/sentence-variation-tool/) to access the (incomplete) sentence variation tool.
 
 ## Introduction
 Inspired by an assignment in ELA class, this tool can help you make sure your writing has enough variation between sentences, making it more interesting to read.
