@@ -44,7 +44,7 @@ function checkText() {
   for(let i = 0; i < sentences.length; i++) {
     words = sentences[i].split(" ");
     alert("[" + i + ", " + words.length + "]")
-    dataArray.push([i, words.length]);
+    dataArray.push([i + 1, words.length]);
   }
 
   alert(dataArray.toString());
