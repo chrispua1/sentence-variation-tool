@@ -3,7 +3,12 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let globalData;
+let dataArray = [
+  [0, 0],
+  [1, 1],
+  [2, 30],
+  [3, 8]
+];
 
 function drawGraph() {
 
@@ -12,12 +17,7 @@ function drawGraph() {
   data.addColumn('number', 'X');
   data.addColumn('number', 'Words');
 
-  data.addRows([
-    [0, 0],
-    [1, 1]
-  ]);
-
-  globalData = data;
+  data.addRows(dataArray);
 
   var options = {
     hAxis: {
@@ -47,6 +47,7 @@ function checkText() {
   alert(sentences.length + " sentences");
 }
 
-function setData(data, info) {
-  // ...
+function renderGraph(data) {
+  data = data;
+  drawGraph();
 }
