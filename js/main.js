@@ -3,9 +3,10 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
+var data = new google.visualization.DataTable();
+
 function drawGraph() {
 
-  var data = new google.visualization.DataTable();
   data.addColumn('number', 'X');
   data.addColumn('number', 'Words');
 
