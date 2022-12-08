@@ -3,11 +3,11 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let globalData;
+let data = new google.visualization.DataTable();
 
 function drawGraph() {
 
-  var data = new google.visualization.DataTable();
+  //var data = new google.visualization.DataTable();
 
   data.addColumn('number', 'X');
   data.addColumn('number', 'Words');
@@ -17,7 +17,7 @@ function drawGraph() {
     [1, 1]
   ]);
 
-  globalData = data;
+  //globalData = data;
 
   var options = {
     hAxis: {
