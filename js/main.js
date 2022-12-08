@@ -28,3 +28,9 @@ function drawGraph() {
 
   chart.draw(data, options);
 }
+
+let text;
+function checkText() {
+  text = document.getElementById("textinput").value;
+  alert(text);
+}
