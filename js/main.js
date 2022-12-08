@@ -45,6 +45,12 @@ function checkText() {
 
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
   alert(sentences.length + " sentences");
+
+  dataArray = [
+    [0, 0],
+    [1, 1],
+    [2, 3]
+  ];
 }
 
 function renderGraph(data) {
