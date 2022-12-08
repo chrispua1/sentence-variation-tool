@@ -36,18 +36,17 @@ function checkText() {
   let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
   temp = temp.replaceAll("! ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
   temp = temp.replaceAll("? ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+  temp = temp.replaceAll(".\n", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+  temp = temp.replaceAll("!\n", "[[SeNtEnCe_!§§§§§!_bReAk]]");
+  temp = temp.replaceAll("?\n", "[[SeNtEnCe_!§§§§§!_bReAk]]");
 
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
-  alert(sentences.length + " sentences");
 
   let words = [""]
   for(let i = 0; i < sentences.length; i++) {
     words = sentences[i].split(" ");
-    alert("[" + i + ", " + words.length + "]")
     dataArray.push([i + 1, words.length]);
   }
-
-  alert(dataArray.toString());
 
   drawGraph();
 }
