@@ -51,6 +51,7 @@ function checkText() {
     [1, 1],
     [2, 3]
   ];
+  drawGraph();
 }
 
 function renderGraph(data) {
