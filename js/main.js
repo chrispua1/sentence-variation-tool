@@ -40,10 +40,10 @@ function checkText() {
   sentences = temp.split("[[SeNtEnCe_!§§§§§!_bReAk]]");
   alert(sentences.length + " sentences");
 
-  for(let i = 1; i < sentences.length + 1; i++) {
+  /*for(let i = 1; i < sentences.length + 1; i++) {
     words = sentences[i].split();
     dataArray.push([i, words.length]);
-  }
+  }*/
 
   dataArray = [
     [1, 6],
@@ -52,7 +52,7 @@ function checkText() {
     [4,9]
   ];
 
-  alert(dataArray.toString());
+  //alert(dataArray.toString());
 
   drawGraph();
 }
