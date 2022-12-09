@@ -55,3 +55,9 @@ function checkText() {
 
   drawGraph();
 }
+
+function clear() {
+  document.getElementById('textinput').value = '';
+  dataArray =[];
+  drawGraph();
+}
