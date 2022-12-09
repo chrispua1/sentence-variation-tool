@@ -34,6 +34,7 @@ function checkText() {
   text = document.getElementById('textinput').value
 
   text.trim();
+  text.trimEnd();
 
   let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
   temp = temp.replaceAll("! ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
