@@ -3,7 +3,7 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawGraph);
 
-let dataArray = [[0, 0]];
+let dataArray = [];
 
 function drawGraph() {
 
