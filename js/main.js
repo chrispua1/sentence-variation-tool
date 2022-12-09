@@ -58,6 +58,6 @@ function checkText() {
 
 function clear() {
   document.getElementById('textinput').value = '';
-  dataArray =[];
+  dataArray = [];
   drawGraph();
 }
