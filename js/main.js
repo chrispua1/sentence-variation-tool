@@ -33,8 +33,8 @@ let sentences = [];
 function checkText() {
   text = document.getElementById('textinput').value
 
-  text.trim();
-  text.trimEnd();
+  text = text.trim();
+  text = text.trimEnd();
   alert(text);
 
   let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
