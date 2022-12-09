@@ -35,6 +35,7 @@ function checkText() {
 
   text.trim();
   text.trimEnd();
+  alert(text);
 
   let temp = text.replaceAll(". ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
   temp = temp.replaceAll("! ", "[[SeNtEnCe_!§§§§§!_bReAk]]");
